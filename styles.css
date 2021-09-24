@@ -1,0 +1,116 @@
+.wrapper {
+    background: rgb(50, 243, 227);
+    }
+ 
+.container {
+    background: rgb(30, 99, 126);
+    height: 1200px;
+}   
+
+#logo img {
+    width: 20%;
+    height: auto;
+    padding-top: 5px;
+}
+
+#menu {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    float: left;
+    width: 1333px;
+    height: 30px;
+    background-color: rgb(30, 99, 126);
+    padding: 5px;
+}
+#menu li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#menu li a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(240, 239, 243);
+    font-size: 20px;
+    flex-grow: inherit;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: rgb(228, 215, 44);
+    color: rgb(1, 26, 14);
+}
+
+#sidebar {
+    width: 200px;
+    height: 910px;
+    background: rgb(245, 170, 58);
+    float: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 150px;
+}
+.content {
+    width: 1100px;
+    height: auto;
+    background: rgb(243, 233, 144);
+    float: left;
+    margin-top: 150px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.box-video {
+    width: 300px;
+    height: 200px;
+    background: seagreen;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.box-music {
+    width: 300px;
+    height: 200px;
+    background: seagreen;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.box-image {
+    padding-top: 20px;
+}
+
+.box-image object {
+    position: relative;
+    display: absolute;
+    width: 300px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:springgreen;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.box-image .teks-overlay h3 {
+    color: maroon;
+    display: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+
